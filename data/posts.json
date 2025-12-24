@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-12-18"
+  },
+  "posts": [
+    {
+      "post_id": "APT_20251220_001",
+      "apt": {
+        "name": "서울 OO 아파트",
+        "region": "서울 강남구",
+        "units": 12
+      },
+      "publish": {
+        "date": "2025-12-20",
+        "time": "09:00",
+        "timezone": "Asia/Seoul"
+      },
+      "content": {
+        "caption": "🏢 서울 OO 아파트\n무순위 잔여청약 시작!\n\n📍 강남구\n🧾 잔여 12세대\n#무순위청약 #잔여청약",
+        "hashtags": ["무순위청약", "잔여청약", "서울아파트"]
+      },
+      "media": {
+        "image_url": "https://raw.githubusercontent.com/ID/REPO/main/images/apt_seoul_oo.jpg"
+      },
+      "status": {
+        "posted": false,
+        "posted_at": null,
+        "retry": 0,
+        "last_error": null
+      }
+    },
+    {
+      "post_id": "APT_20251221_002",
+      "apt": {
+        "name": "경기 XX 아파트",
+        "region": "경기 성남시",
+        "units": 5
+      },
+      "publish": {
+        "date": "2025-12-21",
+        "time": "09:00",
+        "timezone": "Asia/Seoul"
+      },
+      "content": {
+        "caption": "🏢 경기 XX 아파트\n무순위 청약 접수\n\n📍 성남시\n🧾 5세대",
+        "hashtags": ["무순위청약", "경기아파트"]
+      },
+      "media": {
+        "image_url": "https://raw.githubusercontent.com/ID/REPO/main/images/apt_gyunggi_xx.jpg"
+      },
+      "status": {
+        "posted": false,
+        "posted_at": null,
+        "retry": 0,
+        "last_error": null
+      }
+    }
+  ]
+}
