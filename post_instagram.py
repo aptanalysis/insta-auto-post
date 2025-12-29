@@ -27,28 +27,43 @@ posts = data["posts"]
 # ===============================
 # Instagram 업로드 함수
 # ===============================
-def upload_to_instagram(image_url, caption):
-    r = requests.post(
-        f"{GRAPH_URL}/{IG_USER_ID}/media",
-        data={
-            "image_url": image_url,
-            "caption": caption,
-            "access_token": ACCESS_TOKEN
-        },
-        timeout=10
-    )
-    r.raise_for_status()
-    creation_id = r.json()["id"]
+API_VERSION = "v24.0"
 
-    r = requests.post(
-        f"{GRAPH_URL}/{IG_USER_ID}/media_publish",
+def upload_to_instagram(access_token, account_id, image_url, caption):
+    # 1️⃣ 컨테이너 생성
+    create_url = f"https://graph.facebook.com/v24.0/{account_id}/media"
+
+    payload = {
+        "image_url": image_url,
+        "caption": caption,
+        "access_token": access_token
+    }
+
+    r = requests.post(create_url, data=payload)
+    print("CREATE STATUS:", r.status_code)
+    print("CREATE RESPONSE:", r.text)
+    r.raise_for_status()
+
+    creation_id = r.json().get("id")
+    if not creation_id:
+        raise RuntimeError("컨테이너 ID 생성 실패")
+
+    # 2️⃣ 게시
+    publish_url = f"https://graph.facebook.com/v24.0/{account_id}/media_publish"
+
+    r2 = requests.post(
+        publish_url,
         data={
             "creation_id": creation_id,
-            "access_token": ACCESS_TOKEN
-        },
-        timeout=10
+            "access_token": access_token
+        }
     )
-    r.raise_for_status()
+
+    print("PUBLISH STATUS:", r2.status_code)
+    print("PUBLISH RESPONSE:", r2.text)
+    r2.raise_for_status()
+
+    return r2.json()
 
 # ===============================
 # 게시 처리
@@ -77,6 +92,8 @@ for post in posts:
         full_caption = f"{caption}\n\n{hashtags}"
 
         upload_to_instagram(
+            access_token=ACCESS_TOKEN,
+            account_id=IG_USER_ID,
             image_url=post["media"]["image_url"],
             caption=full_caption
         )
