@@ -72,7 +72,7 @@ updated = False
 
 for post in posts:
     publish_dt = datetime.fromisoformat(
-        f"{post['publish']['date']} {post['publish']['time']}"
+        f"{post['publish']['date']} {post['publish'].get('time', '00:00')}"
     ).replace(tzinfo=TZ)
 
     status = post.setdefault(
@@ -80,27 +80,31 @@ for post in posts:
         {"posted": False, "posted_at": None}
     )
 
+    # 1️⃣ 오늘 날짜가 아니면 패스
+    if publish_dt.date() != now.date():
+        continue
+
+    # 2️⃣ 이미 게시했으면 패스
     if status["posted"]:
         continue
 
-    if publish_dt <= now:
-        apt_name = post["apt"]["name"]
-        print(f"📸 업로드 실행: {apt_name}")
+    print(f"📸 업로드 실행: {post['apt']['name']}")
 
-        caption = post["content"]["caption"]
-        hashtags = " ".join(f"#{h}" for h in post["content"]["hashtags"])
-        full_caption = f"{caption}\n\n{hashtags}"
+    caption = post["content"]["caption"]
+    hashtags = " ".join(f"#{h}" for h in post["content"]["hashtags"])
+    full_caption = f"{caption}\n\n{hashtags}"
 
-        upload_to_instagram(
-            access_token=ACCESS_TOKEN,
-            account_id=IG_USER_ID,
-            image_url=post["media"]["image_url"],
-            caption=full_caption
-        )
+    upload_to_instagram(
+        access_token=ACCESS_TOKEN,
+        account_id=IG_USER_ID,
+        image_url=post["media"]["image_url"],
+        caption=full_caption
+    )
 
-        status["posted"] = True
-        status["posted_at"] = now.isoformat()
-        updated = True
+    status["posted"] = True
+    status["posted_at"] = now.isoformat()
+    updated = True
+
 
 # ===============================
 # JSON 저장
