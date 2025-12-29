@@ -69,20 +69,6 @@
       "media": {
         "image_url": "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/2.jpg"
       }
-    },
-    {
-  "apt": { "name": "TEST 자동발행" },
-  "publish": {
-    "date": "2025-12-27",
-    "time": "23:59"
-  },
-  "content": {
-    "caption": "🧪 자동 게시 테스트",
-    "hashtags": ["테스트", "자동화"]
-  },
-  "media": {
-    "image_url": "https://raw.githubusercontent.com/ID/REPO/main/images/test.jpg"
-  }
-}
+    }
   ]
 }
