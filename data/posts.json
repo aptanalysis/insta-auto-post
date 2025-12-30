@@ -7,53 +7,48 @@
   "posts": [
     {
       "apt": {
-        "name": "태화강 센트럴 아이파크",
-        "blog_url": "https://www.aptanalysis.com/%ed%83%9c%ed%99%94%ea%b0%95-%ec%84%bc%ed%8a%b8%eb%9f%b4-%ec%95%84%ec%9d%b4%ed%8c%8c%ed%81%ac-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d-3/"
+        "name": "마포 래미안 푸르지오",
+        "blog_url": "www.naver.com"
       },
       "publish": {
         "date": "2025-12-29",
         "time": "05:00"
       },
       "content": {
-        "caption": "오늘부터 청약 신청 가능한 태화강 센트럴 아이파크!\n\n안전마진: 없음\n입주시 필요 현금:2.5억 원\n자세한 분석은 아래 링크에서 확인 👇\nhttps://www.aptanalysis.com",
+        "caption": "오늘부터 청약 신청 가능한 마포 래미안 푸르지오!\n\n안전마진: 1.2억\n입주시 필요 현금: 9.8억\n자세한 분석은 아래 링크에서 확인 👇\nhttps://www.aptanalysis.com",
         "hashtags": [
-          "태화강 센트럴 아이파크",
-          "태화강 센트럴 아이파크 청약",
-          "태화강 센트럴 아이파크 분양",
-          "태화강 센트럴 아이파크 분양가",
-          "울산광역시"
+          "마포 래미안 푸르지오",
+          "마포아파트",
+          "청약정보",
+          "서울아파트"
         ]
       },
       "media": {
-        "images": [
-          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/태화강 센트럴 아이파크_1.jpg",
-          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/태화강 센트럴 아이파크_2.jpg"
-        ]
+        "image_url": "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/2.jpg"
       }
     },
     {
       "apt": {
-        "name": "힐스테이트 선암호수공원 2단지",
-        "blog_url": "https://www.aptanalysis.com/%ed%9e%90%ec%8a%a4%ed%85%8c%ec%9d%b4%ed%8a%b8-%ec%84%a0%ec%95%94%ed%98%b8%ec%88%98%ea%b3%b5%ec%9b%90-2%eb%8b%a8%ec%a7%80-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d-2/"
+        "name": "마포 래미안 푸르지오",
+        "blog_url": "www.naver.com"
       },
       "publish": {
-        "date": "2025-12-29",
+        "date": "2025-12-27",
         "time": "05:00"
       },
       "content": {
-        "caption": "오늘부터 청약 신청 가능한 힐스테이트 선암호수공원 2단지!\n\n안전마진: 없음\n입주시 필요 현금:2.8억 원\n자세한 분석은 아래 링크에서 확인 👇\nhttps://www.aptanalysis.com",
+        "caption": "오늘부터 청약 신청 가능한 마포 래미안 푸르지오!\n\n안전마진: 1.2억\n입주시 필요 현금: 9.8억\n자세한 분석은 아래 링크에서 확인 👇\nhttps://www.aptanalysis.com",
         "hashtags": [
-          "힐스테이트 선암호수공원 2단지",
-          "힐스테이트 선암호수공원 2단지 청약",
-          "힐스테이트 선암호수공원 2단지 분양",
-          "힐스테이트 선암호수공원 2단지 분양가",
-          "울산광역시"
+          "마포 래미안 푸르지오",
+          "마포아파트",
+          "청약정보",
+          "서울아파트"
         ]
       },
       "media": {
         "images": [
-          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/힐스테이트 선암호수공원 2단지_1.jpg",
-          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/힐스테이트 선암호수공원 2단지_2.jpg"
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/마포_래미안_푸르지오_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/마포_래미안_푸르지오_2.jpg"
         ]
       }
     }
