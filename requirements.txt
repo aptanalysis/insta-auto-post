@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 requests>=2.31.0
-=======
-requests>=2.31.0
->>>>>>> 1f17f481ed0a8fcc592f14fe7d086792958cd0e0
