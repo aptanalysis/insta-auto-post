@@ -4,7 +4,8 @@ import requests
 import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from requests.exceptions import HTTPError, TimeoutError
+from requests.exceptions import HTTPError, Timeout # Timeout 대신 Timeout을 임포트
+# 기존 코드에서 Timeout를 사용하던 모든 부분을 Timeout으로 변경해야 합니다.
 
 # ===============================
 # 기본 설정
@@ -73,7 +74,7 @@ def check_media_status(container_id, access_token, max_attempts=30, delay_second
 
         time.sleep(delay_seconds)
         
-    raise TimeoutError(f"미디어 컨테이너 {container_id}가 {max_attempts * delay_seconds}초 내에 처리되지 않았습니다.")
+    raise Timeout(f"미디어 컨테이너 {container_id}가 {max_attempts * delay_seconds}초 내에 처리되지 않았습니다.")
 
 
 # ===============================
@@ -103,7 +104,7 @@ def publish_carousel(access_token, account_id, media_ids, caption):
     try:
         for media_id in media_ids:
             check_media_status(media_id, access_token)
-    except (TimeoutError, Exception) as e:
+    except (Timeout, Exception) as e:
         print(f"❌ [게시 실패] 미디어 처리 문제로 PUBLISH 중단: {e}")
         return False # 실패
 
@@ -124,7 +125,7 @@ def publish_carousel(access_token, account_id, media_ids, caption):
     # 2-1. 부모 컨테이너도 READY 상태가 될 때까지 대기
     try:
         check_media_status(creation_id, access_token)
-    except (TimeoutError, Exception) as e:
+    except (Timeout, Exception) as e:
         print(f"❌ [게시 실패] 카루셀 컨테이너 처리 문제로 PUBLISH 중단: {e}")
         return False # 실패
 
@@ -245,7 +246,7 @@ for post in posts:
             print("✅ 단일 이미지 최종 게시 성공!")
             is_success = True
             
-        except (HTTPError, TimeoutError, Exception) as e:
+        except (HTTPError, Timeout, Exception) as e:
             print(f"\n❌ [단일 이미지 게시 실패] 에러 발생: {e}")
             try:
                 if 'r2' in locals() and r2.status_code != 200:
