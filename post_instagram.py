@@ -67,6 +67,8 @@ def publish_carousel(access_token, account_id, media_ids, caption):
         publish_url,
         data={"creation_id": creation_id, "access_token": access_token}
     )
+    if r2.status_code != 200:
+        print("PUBLISH ERROR DETAIL:", r2.text) # <-- 이 코드를 추가해 보세요
     r2.raise_for_status()
 # ===============================
 # 게시 처리
