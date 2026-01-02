@@ -103,6 +103,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/58_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "해남 남외리 정하 에코프라임",
+        "blog_url": "https://www.aptanalysis.com/%ed%95%b4%eb%82%a8-%eb%82%a8%ec%99%b8%eb%a6%ac-%ec%a0%95%ed%95%98-%ec%97%90%ec%bd%94%ed%94%84%eb%9d%bc%ec%9e%84-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-01-05",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 해남 남외리 정하 에코프라임!\n\n안전마진: 없음\n입주시 필요 현금:1.1억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "해남 남외리 정하 에코프라임",
+          "해남 남외리 정하 에코프라임 청약",
+          "해남 남외리 정하 에코프라임 분양",
+          "해남 남외리 정하 에코프라임 분양가",
+          "전라남도해남군"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/59_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/59_2.jpg"
+        ]
+      }
     }
   ]
 }
