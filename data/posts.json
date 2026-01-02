@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0",
     "timezone": "Asia/Seoul",
-    "last_updated": "2025-12-30"
+    "last_updated": "2026-01-02"
   },
   "posts": [
     {
@@ -58,7 +58,7 @@
         "blog_url": "https://www.aptanalysis.com/%ed%83%9c%ed%99%94%ea%b0%95-%ec%84%bc%ed%8a%b8%eb%9f%b4-%ec%95%84%ec%9d%b4%ed%8c%8c%ed%81%ac-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d-4/"
       },
       "publish": {
-        "date": "2025-12-29",
+        "date": "2025-12-31",
         "time": "05:00"
       },
       "content": {
@@ -73,8 +73,34 @@
       },
       "media": {
         "images": [
-          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/태화강 센트럴 아이파크_1.jpg",
-          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/태화강 센트럴 아이파크_2.jpg"
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/2_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/2_2.jpg"
+        ]
+      }
+    },
+    {
+      "apt": {
+        "name": "영종하늘도시 대라수 어썸(A50BL)",
+        "blog_url": "https://www.aptanalysis.com/%ec%98%81%ec%a2%85%ed%95%98%eb%8a%98%eb%8f%84%ec%8b%9c-%eb%8c%80%eb%9d%bc%ec%88%98-%ec%96%b4%ec%8d%b8a50bl-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-01-02",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 영종하늘도시 대라수 어썸(A50BL)!\n\n안전마진: 없음\n입주시 필요 현금:1.7억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "영종하늘도시 대라수 어썸(A50BL)",
+          "영종하늘도시 대라수 어썸(A50BL) 청약",
+          "영종하늘도시 대라수 어썸(A50BL) 분양",
+          "영종하늘도시 대라수 어썸(A50BL) 분양가",
+          "인천광역시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/58_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/58_2.jpg"
         ]
       }
     }
