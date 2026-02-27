@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0",
     "timezone": "Asia/Seoul",
-    "last_updated": "2026-01-02"
+    "last_updated": "2026-02-27"
   },
   "posts": [
     {
@@ -179,6 +179,32 @@
         "images": [
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/61_1.jpg",
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/61_2.jpg"
+        ]
+      }
+    },
+    {
+      "apt": {
+        "name": "안양역 센트럴 아이파크 수자인",
+        "blog_url": "https://www.aptanalysis.com/%ec%95%88%ec%96%91%ec%97%ad-%ec%84%bc%ed%8a%b8%eb%9f%b4-%ec%95%84%ec%9d%b4%ed%8c%8c%ed%81%ac-%ec%88%98%ec%9e%90%ec%9d%b8-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-02-02",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 안양역 센트럴 아이파크 수자인!\n\n안전마진: 없음\n입주시 필요 현금:3.8억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "안양역 센트럴 아이파크 수자인",
+          "안양역 센트럴 아이파크 수자인 청약",
+          "안양역 센트럴 아이파크 수자인 분양",
+          "안양역 센트럴 아이파크 수자인 분양가",
+          "경기도안양시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/62_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/62_2.jpg"
         ]
       }
     }
