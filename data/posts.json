@@ -337,6 +337,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/66_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "경산 상방공원 호반써밋 1단지",
+        "blog_url": "https://www.aptanalysis.com/%ea%b2%bd%ec%82%b0-%ec%83%81%eb%b0%a9%ea%b3%b5%ec%9b%90-%ed%98%b8%eb%b0%98%ec%8d%a8%eb%b0%8b-1%eb%8b%a8%ec%a7%80-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-03-09",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 경산 상방공원 호반써밋 1단지!\n\n안전마진: 없음\n입주시 필요 현금:1.7억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "경산 상방공원 호반써밋 1단지",
+          "경산 상방공원 호반써밋 1단지 청약",
+          "경산 상방공원 호반써밋 1단지 분양",
+          "경산 상방공원 호반써밋 1단지 분양가",
+          "서울특별시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/67_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/67_2.jpg"
+        ]
+      }
     }
   ]
 }
