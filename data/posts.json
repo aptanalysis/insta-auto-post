@@ -259,6 +259,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/63_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "천안 아이파크 시티 5단지",
+        "blog_url": "https://www.aptanalysis.com/%ec%b2%9c%ec%95%88-%ec%95%84%ec%9d%b4%ed%8c%8c%ed%81%ac-%ec%8b%9c%ed%8b%b0-5%eb%8b%a8%ec%a7%80-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-03-03",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 천안 아이파크 시티 5단지!\n\n안전마진: 없음\n입주시 필요 현금:1.8억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "천안 아이파크 시티 5단지",
+          "천안 아이파크 시티 5단지 청약",
+          "천안 아이파크 시티 5단지 분양",
+          "천안 아이파크 시티 5단지 분양가",
+          "충청남도천안시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/64_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/64_2.jpg"
+        ]
+      }
     }
   ]
 }
