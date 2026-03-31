@@ -415,6 +415,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/69_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "래미안 엘라비네",
+        "blog_url": "https://www.aptanalysis.com/%eb%9e%98%eb%af%b8%ec%95%88-%ec%97%98%eb%9d%bc%eb%b9%84%eb%84%a4-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-03-16",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 래미안 엘라비네!\n\n안전마진: 없음\n입주시 필요 현금:14.5억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "래미안 엘라비네",
+          "래미안 엘라비네 청약",
+          "래미안 엘라비네 분양",
+          "래미안 엘라비네 분양가",
+          "전라남도여수시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/70_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/70_2.jpg"
+        ]
+      }
     }
   ]
 }
