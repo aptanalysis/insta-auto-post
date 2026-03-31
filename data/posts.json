@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0",
     "timezone": "Asia/Seoul",
-    "last_updated": "2026-03-01"
+    "last_updated": "2026-03-31"
   },
   "posts": [
     {
@@ -387,6 +387,32 @@
         "images": [
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/68_1.jpg",
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/68_2.jpg"
+        ]
+      }
+    },
+    {
+      "apt": {
+        "name": "e편한세상 여수 글렌츠",
+        "blog_url": "https://www.aptanalysis.com/e%ed%8e%b8%ed%95%9c%ec%84%b8%ec%83%81-%ec%97%ac%ec%88%98-%ea%b8%80%eb%a0%8c%ec%b8%a0-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-03-16",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 e편한세상 여수 글렌츠!\n\n안전마진: 없음\n입주시 필요 현금:1.8억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "e편한세상 여수 글렌츠",
+          "e편한세상 여수 글렌츠 청약",
+          "e편한세상 여수 글렌츠 분양",
+          "e편한세상 여수 글렌츠 분양가",
+          "전라남도여수시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/69_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/69_2.jpg"
         ]
       }
     }
