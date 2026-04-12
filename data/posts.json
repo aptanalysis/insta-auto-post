@@ -571,6 +571,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/75_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "중앙하이츠 갈산역 센트럴",
+        "blog_url": "https://www.aptanalysis.com/%ec%a4%91%ec%95%99%ed%95%98%ec%9d%b4%ec%b8%a0-%ea%b0%88%ec%82%b0%ec%97%ad-%ec%84%bc%ed%8a%b8%eb%9f%b4-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-04-06",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 중앙하이츠 갈산역 센트럴!\n\n안전마진: 없음\n입주시 필요 현금:1.5억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "중앙하이츠 갈산역 센트럴",
+          "중앙하이츠 갈산역 센트럴 청약",
+          "중앙하이츠 갈산역 센트럴 분양",
+          "중앙하이츠 갈산역 센트럴 분양가",
+          "인천광역시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/76_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/76_2.jpg"
+        ]
+      }
     }
   ]
 }
