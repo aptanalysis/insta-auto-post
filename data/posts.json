@@ -519,6 +519,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/73_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "한화포레나 부산당리",
+        "blog_url": "https://www.aptanalysis.com/%ed%95%9c%ed%99%94%ed%8f%ac%eb%a0%88%eb%82%98-%eb%b6%80%ec%82%b0%eb%8b%b9%eb%a6%ac-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-03-30",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 한화포레나 부산당리!\n\n안전마진: 없음\n입주시 필요 현금:2.4억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "한화포레나 부산당리",
+          "한화포레나 부산당리 청약",
+          "한화포레나 부산당리 분양",
+          "한화포레나 부산당리 분양가",
+          "부산광역시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/74_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/74_2.jpg"
+        ]
+      }
     }
   ]
 }
