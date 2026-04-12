@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0",
     "timezone": "Asia/Seoul",
-    "last_updated": "2026-03-31"
+    "last_updated": "2026-04-12"
   },
   "posts": [
     {
@@ -465,6 +465,32 @@
         "images": [
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/71_1.jpg",
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/71_2.jpg"
+        ]
+      }
+    },
+    {
+      "apt": {
+        "name": "창원자이 더 스카이",
+        "blog_url": "https://www.aptanalysis.com/%ec%b0%bd%ec%9b%90%ec%9e%90%ec%9d%b4-%eb%8d%94-%ec%8a%a4%ec%b9%b4%ec%9d%b4-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-03-30",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 창원자이 더 스카이!\n\n안전마진: 1.2억 원\n입주시 필요 현금:2.8억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "창원자이 더 스카이",
+          "창원자이 더 스카이 청약",
+          "창원자이 더 스카이 분양",
+          "창원자이 더 스카이 분양가",
+          "경상남도창원시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/72_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/72_2.jpg"
         ]
       }
     }
