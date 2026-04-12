@@ -623,6 +623,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/77_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "경성대부경대역 비스타동원 더 프리미엄",
+        "blog_url": "https://www.aptanalysis.com/%ea%b2%bd%ec%84%b1%eb%8c%80%eb%b6%80%ea%b2%bd%eb%8c%80%ec%97%ad-%eb%b9%84%ec%8a%a4%ed%83%80%eb%8f%99%ec%9b%90-%eb%8d%94-%ed%94%84%eb%a6%ac%eb%af%b8%ec%97%84-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad/"
+      },
+      "publish": {
+        "date": "2026-04-06",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 경성대부경대역 비스타동원 더 프리미엄!\n\n안전마진: 없음\n입주시 필요 현금:2.9억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "경성대부경대역 비스타동원 더 프리미엄",
+          "경성대부경대역 비스타동원 더 프리미엄 청약",
+          "경성대부경대역 비스타동원 더 프리미엄 분양",
+          "경성대부경대역 비스타동원 더 프리미엄 분양가",
+          "부산광역시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/78_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/78_2.jpg"
+        ]
+      }
     }
   ]
 }
