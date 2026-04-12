@@ -597,6 +597,32 @@
           "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/76_2.jpg"
         ]
       }
+    },
+    {
+      "apt": {
+        "name": "힐스테이트 안양펠루스",
+        "blog_url": "https://www.aptanalysis.com/%ed%9e%90%ec%8a%a4%ed%85%8c%ec%9d%b4%ed%8a%b8-%ec%95%88%ec%96%91%ed%8e%a0%eb%a3%a8%ec%8a%a4-%eb%b6%84%ec%96%91%ea%b0%80-%ec%b2%ad%ec%95%bd-%eb%b6%84%ec%84%9d/"
+      },
+      "publish": {
+        "date": "2026-04-06",
+        "time": "05:00"
+      },
+      "content": {
+        "caption": "오늘부터 청약 신청 가능한 힐스테이트 안양펠루스!\n\n안전마진: 없음\n입주시 필요 현금:1.7억 원\n자세한 분석은 프로필 링크에서 확인 👇\n",
+        "hashtags": [
+          "힐스테이트 안양펠루스",
+          "힐스테이트 안양펠루스 청약",
+          "힐스테이트 안양펠루스 분양",
+          "힐스테이트 안양펠루스 분양가",
+          "경기도안양시"
+        ]
+      },
+      "media": {
+        "images": [
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/77_1.jpg",
+          "https://raw.githubusercontent.com/aptanalysis/insta-auto-post/main/images/77_2.jpg"
+        ]
+      }
     }
   ]
 }
