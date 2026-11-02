@@ -1,0 +1,25 @@
+name: Baby Price Check
+
+# 배포된 육아템 최저가 알리미의 가격 체크 엔드포인트를 주기적으로 호출합니다.
+# 필요한 저장소 Secrets:
+#   BABY_PRICE_APP_URL     예) https://my-baby-price.vercel.app   (끝에 / 없이)
+#   BABY_PRICE_CRON_SECRET 앱의 CRON_SECRET 과 같은 값
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # 3시간마다 (UTC 기준, 매시 17분)
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger price check
+        env:
+          APP_URL: ${{ secrets.BABY_PRICE_APP_URL }}
+          CRON_SECRET: ${{ secrets.BABY_PRICE_CRON_SECRET }}
+        run: |
+          if [ -z "$APP_URL" ] || [ -z "$CRON_SECRET" ]; then
+            echo "BABY_PRICE_APP_URL / BABY_PRICE_CRON_SECRET secrets 가 없어 건너뜁니다."
+            exit 0
+          fi
+          curl -fsS --max-time 290 -H "Authorization: Bearer $CRON_SECRET" "$APP_URL/api/cron/check" | head -c 2000
